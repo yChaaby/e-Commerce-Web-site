@@ -1,0 +1,211 @@
+.container .account-page{
+    display: flex;
+    justify-content: space-between ;
+    padding: 10px;
+}
+.container .account-page .profile{
+    width: 30%;
+}
+.container .account-page .account-detail{
+    width: 60%;
+}
+.container .account-page .profile .profile-detail{
+    width: 140px;;
+    height: 160px; ;
+    margin:0 auto ;
+    margin-bottom:60px ;
+    text-align: center;
+    overflow: none;
+}
+.container .account-page .profile .profile-detail img{
+    width: 160px ;
+    height: 160px;
+    border: 1px solid #eee ;
+    border-radius:50% ;
+    box-shadow: 0px 0px 5px #888888;
+    object-fit: cover;
+}
+.container .account-page .profile .profile-detail h2{
+   color: var(--darkStaleGray) ;
+   margin-top: 10px;
+   margin-bottom: 5px;
+}
+.container .account-page .profile ul{
+    list-style: none ;
+    padding: 10px ;
+}
+.container .account-page .profile ul li{
+    margin-bottom: 5px;
+}
+.container .account-page .profile ul li button{
+    width: 100%;
+}
+.container .account-page .profile ul li a,
+.container .account-page .profile ul li button{
+    color: var(--darkStaleGray);
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    padding: 5px 8px ;
+    text-align: left ;
+    display: block;
+}
+.container .account-page .profile ul li span{
+   float: right;
+}
+.container .account-page .profile ul li a:hover,
+.container .account-page .profile ul li button:hover{
+    color: rgb(0, 0, 0);
+    background-color:  rgba(137, 43, 226, 0.329);
+}
+.input{
+    display: inline-block;
+    padding: 1rem 0rem;
+}
+.flname input,textarea,select{
+    border: 3px solid rgba(85, 85, 85, 0.37);
+    border-radius: 3px;
+    width: 100%;
+    padding: 6px 10px;
+    margin: 2px 0;
+    box-sizing: border-box;
+}
+.select{
+    display: inline-block;
+    padding: 1rem 0rem;
+}
+.container .account-page .account-detail input[type="submit"]{
+    color: var(--darkStaleGray);
+    background-color:rgba(137, 43, 226, 0.322) ;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid rgba(236, 248 , 241 , 0.3);
+    padding: 5px 8px ;
+    text-align: center ;
+    display: block;
+    border: none;
+    cursor: pointer;
+}
+.container .account-page .account-detail input[type="submit"]:hover{
+    color: rgb(0, 0, 0);
+    background-color:  rgba(137, 43, 226, 0.534);
+}
+.password input,
+.confirmPassword input{
+    border: 3px solid rgba(85, 85, 85, 0.37);
+    border-radius: 3px;
+    width: 160%;
+    padding: 6px 10px;
+    margin: 2px 0;
+    box-sizing: border-box;
+}
+#updt{
+    width: 160%;
+}
+* {box-sizing: border-box}
+
+button:hover {
+  opacity:1;
+}
+
+.cancelbtn, .deletebtn {
+  float: left;
+  width: 50%;
+  height: 50px;
+}
+
+.cancelbtn {
+  background-color: #ccc;
+  color: black;
+}
+
+.deletebtn {
+  background-color: rgba(0, 128, 0, 0.637);
+}
+
+.container1 {
+  padding: 16px;
+  text-align: center;
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: #474e5d67;
+  padding-top: 50px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  width: 50%;
+
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .deletebtn {
+    width: 100%;
+  }
+}
+.order{
+  display: inline-block;
+  padding: 1rem 3rem;
+}
+.order img{
+  width: 50px ;
+  object-fit: cover;
+  background-image: none;
+}
+.order-detail{
+  border: 3px solid  rgba(137, 43, 226, 0.226);
+  border-radius: 10px;
+  width: 100%;
+  padding: 6px 10px;
+  margin: 2px 0;
+  box-sizing: border-box;
+}
+.order-detail hr{
+ background-color: rgba(0, 0, 0, 0.342);
+ border: none;
+ height: 1px;
+}
+.track p{
+  display: inline-block;
+  padding: 1rem 4rem;
+}
+.account-detail h5{
+  font-weight: bold;
+}
