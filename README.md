@@ -1,2 +1,2 @@
-# e-Commerce-Web-site
+# E-Commerce-Web-site
 Green Store 
